@@ -1,6 +1,6 @@
 import os
 import logging
-import asyncio
+import time
 
 from AutoPostTelegram import auto
 
@@ -23,6 +23,6 @@ app = auto(TOKEN)
 
 while True:
     app.pkmnmeme(chat=CHAT)
-    asyncio.sleep(GAP) #The Time Gap Of Your Post In Seconds
+    time.sleep(GAP) #The Time Gap Of Your Post In Seconds
     app.pkmnmeme(chat=CHAT)
-    asyncio.sleep(GAP) #The Time Gap Of Your Post In Seconds
+    time.sleep(GAP) #The Time Gap Of Your Post In Seconds

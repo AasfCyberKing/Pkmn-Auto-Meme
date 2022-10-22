@@ -1,0 +1,22 @@
+{
+      "name" : "Pokemon Meme Uploadeder",
+      "description" : "Simple Script Use AutoPostTelegram Package To Upload Pokemon Meme With Time Gap Requested By My Friend",
+      "repository" : "https://github.com/AasfCyberKing/Pkmn-Auto-Meme",
+      "logo" : "https://telegra.ph/file/69e436b0b24ae8c4c3f77.jpg",
+      "keywords" : ["automeme", "pokemon", "autoposttelegram"],
+      "env" : {
+         "TOKEN" : {
+            "description" : "Your Bot's Token Get It From @Botfather",
+            "required" : true
+           },
+         "CHAT" : {
+            "description" : "Your Group Or Channel's Username With @ Symbol Where It Post Memes",
+            "required" : true
+           },
+         "GAP" : {
+            "description" : "Time Gap Of Your Post In Seconds Ex:- 1 min = 60 sec",
+            "required" : true
+           }
+     }
+ }
+    

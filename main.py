@@ -25,3 +25,4 @@ while True:
     app.pkmnmeme(chat=CHAT)
     asyncio.sleep(GAP) #The Time Gap Of Your Post In Seconds
     app.pkmnmeme(chat=CHAT)
+    asyncio.sleep(GAP) #The Time Gap Of Your Post In Seconds

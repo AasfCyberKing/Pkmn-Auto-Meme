@@ -23,6 +23,6 @@ app = auto(TOKEN)
 
 while True:
     app.pkmnmeme(chat=CHAT)
-    time.sleep(GAP) #The Time Gap Of Your Post In Seconds
+    time.sleep(int(GAP)) #The Time Gap Of Your Post In Seconds
     app.pkmnmeme(chat=CHAT)
     time.sleep(GAP) #The Time Gap Of Your Post In Seconds
